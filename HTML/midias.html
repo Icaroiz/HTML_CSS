@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logo.ico" type="image/x-icon">
     <title>Mídias em HTML5</title>
 </head>
-<body>
+<style>
+    body{
+            color: white;
+    }
+    h1{
+            color: white;
+    }
+    p{
+            color: white;
+    }
+   
+</style>
+<body background="imagens/fundo.jpg">
+
+    <p><a href="index.html" rel="next" style="color:white"><abbr title="Index">Index</abbr></a></p>
+
+    <p><a href="imagens.html" rel="next" style="color:white"><abbr title="Imagens">Imagens</abbr></a></p>
+
+    <p><a href="link.html" rel="next" style="color:white" ><abbr title="Links">Links</abbr></a></p>
+
+    <p><a href="listas.html" rel="next" style="color:white"><abbr title="Listas">Listas</abbr></a></p>
+
+    <p><a href="formatacoes.html" rel="next" style="color:white"><abbr title="Formatações">Formatações</abbr></a></p>
+
+    <p><a href="hierarquia.html" rel="next" style="color:white"><abbr title="Hierarquia">Hierarquia</abbr></a></p>
+
+    <p><a href="negrito_italico.html" rel="next" style="color:white"><abbr title="Negrito ou Italico">Negrito ou Italico</abbr></a></p>
+
+    <p><a href="midias.html" rel="next" style="color:white"><abbr title="Midias">Midias</abbr></a></p>
+
     <h1>Imagem dinamica</h1>
     <p>Tente abrir esse site em vários dispositivos diferentes</p>
 
@@ -14,8 +44,24 @@
         <source media="(max-width: 10px)" srcset="imagens/p.png" type="image/png"> 
         <source media="(max-width: 2000px)" srcset="imagens/m.png" type="image/png">
         <img src="imagens/g.png" alt="G">
-
     </picture>
 
+    <h1>Vampos aprender a reproduzir audios em HTML5</h1>
+    <audio preload="metadata" src="som/som1.mp3" controls autoplay></audio>
+    <!-- MP3 MPEG WAV OGG -->
+    <!-- audio  src="som/som1.mp3" type="audio/mpeg" audio-->
+    <!-- audio  src="som/som1.mp3" type="audio/ogg" audio-->
+    <!-- audio  src="som/som1.mp3" type="audio/wav" audio-->
+
+    <h1>Vampos aprender a reproduzir videos em HTML5</h1>
+    <video src="video/dev.mp4" width="800px" controls autoplay>
+    </video>
+
+    <!-- video 
+        <source src= "video/dev.mp4" type="video/mp4 ">
+        <source src= "video/dev.mp4" type="video/ogv ">
+        <source src= "video/dev.mp4" type="video/webm">
+        <source src= "video/dev.mp4" type="video/ogg">
+    -->
 </body>
 </html>
