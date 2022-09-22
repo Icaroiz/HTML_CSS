@@ -54,7 +54,6 @@ fieldset{
 
 body{
     text-align: center;
-    justify-content: center;
     background-color: aliceblue;
     font-family: sans-serif;
     font-size: 1em;
@@ -69,9 +68,6 @@ input, select, textarea, button{
     font-size: 1em;
     color: #59429d;
     border-radius: 5px;
-    justify-content: center;
-    text-align: center;
-    
 }
 
 .grupo:before, .grupo:after {
@@ -96,7 +92,6 @@ input, select, textarea, button{
 fieldset.grupo.campo{
     float: left;
     margin-right: 1em;
-    justify-content: center;
    
 }
 
@@ -105,7 +100,6 @@ fieldset.grupo.campo{
     border: 1px solid  ;
     box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
     display: block;
-    justify-content: center;
 }
 
 .campo select option{
@@ -114,7 +108,6 @@ fieldset.grupo.campo{
 
 .campo input:focus, .campo select:focus, .campo textarea:focus{
     background: #E0E0F8;
-    width:50em;
 }
 
 .botao{
@@ -126,7 +119,6 @@ fieldset.grupo.campo{
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
-    top: 85%;
     left: 101%;
     margin-left: -50%;
     transform: translate(-50%,50%);
