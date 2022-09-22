@@ -5,6 +5,12 @@
     padding: 0%;
 }
 
+#total{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
 #titulo{
     font-family: sans-serif;
     color: blueviolet;
