@@ -12,102 +12,119 @@
     <link rel="shortcut icon" href="../imagens/logo.ico" type="image/x-icon">
 
     <!-- Título da página (aparece na aba) -->
-    <title>Cadastro de Devs</title>
+    <title>Cadastro de Usuarios</title>
 </head>
 <body>
 
- <div id="total"> <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
-    <div>
-        <h1 id="titulo"><strong>Cadastro de Devs</strong></h1>
-        <br>
-        <p id="subtitulo">Complete suas informações</p>
-        <br>
-    </div> 
+    <header class="cabecalho">
+       <a href="../Landing Page/index.html"><img class="cabecalho-foto" src="../Landing Page/logo.svg" alt="Logo da comunidade Icaroiz"> </a>
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-item" href="../Landing Page/index.html" style="text-decoration:none" >Inicio</a>
+            <a class="cabecalho-item" href="https://github.com/Icaroiz" target="_blank" rel="external" style="text-decoration:none" >Github Icaroiz</a>
+            <a class="cabecalho-item" href="https://onepieceex.net/mangas/" target="_blank" rel="external" style="text-decoration:none" >Mangá</a>
+            <a class="cabecalho-item" href="https://onepieceex.net/episodios/" target="_blank" rel="external" style="text-decoration:none" >Anime</a>
+            <a class="cabecalho-item" href="https://onepieceex.net/categoria/onepiece/" target="_blank" rel="external" style="text-decoration:none" >Notícias</a>
+        </nav>
+    </header>
 
+ <div id="total"> <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+    <div class ="titulo">
+        <h1 id="titulo"><strong>Cadastro de Usuarios</strong></h1>
+        <p id="subtitulo">Complete suas informações</p>
+    </div> 
         <!-- Início do formulário -->
         <form>
             <fieldset class="grupo" > 
         <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
-                <div class="campo">
-                    <label for="nome"><strong>Nome</strong></label>
-                    <input type="text",name="nome" id="nome" required>
+                <div class="campo_nome">
+                    <label for="nome">Nome: </label>
+                    <input class="nome" type="text",name="nome" id="nome" required>
                 </div>
-
         <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
-                <div class="campo">
-                    <label for="sobrenome"><strong>Sobrenome</strong></label>
-                    <input type="text" name="sobrenome" id="sobrenome" required>
+                <div class="campo_sobrenome">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" class="sobrenome" name="sobrenome" id="sobrenome" required>
                 </div>
-            </fieldset>
-
-        <!-- Campo de email com-->
-            <div class="campo">
-                <label for="email"><strong>Email</strong></label>
-                <input type="email" name="email" id="email" required>
+                <div class="campo">
+                    <label for="email">Email:</label>
+                <input type="email" class="email" name="email" id="email" required>
             </div>
+        </fieldset>
 
-            <br>
+        
         <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+        <fieldset class="grupo" > 
             <div class="campo">
-               <label><strong>De qual lado da aplicação voçê desenvolve ? </strong></label>
+               <label>Em qual genero voce se indentifica ? </label>
                 <br>
                <label>
-                    <input type="radio" name="devweb" id="frontend"checked>Front-End
+                    <input type="radio" name="devweb" id="frontend"checked>Hétero
                </label>
                <label>
-                    <input type="radio" name="devweb" id="backend">Back-End
+                    <input type="radio" name="devweb" id="backend">Homossexual
                </label>
                <label>
-                    <input type="radio" name="devweb" id="fullstack">Fullstack
+                    <input type="radio" name="devweb" id="fullstack">Prefiro não identificar
                </label>
             </div>
-
+        </fieldset>
+       
+        <br>
         <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
             <div class="campo">
-                <br>
-                <label for="senioridade"><strong>Senioridade</strong></label>
-                <select id="senioridade">
+                <label   for="senioridade">UF</label>
+                <select id="senioridade" class="senioridade">
                     <option selected disabled value="">selecione</option>
-                    <option>Junior</option>
-                    <option>Plenor</option>
-                    <option>Senior</option>
+                    <option>CE</option>
+                    <option>BH</option>
+                    <option>PB</option>
                 </select>
             </div>
-
+            <br>
         <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
             <fieldset class="grupo">
-                <br>
                 <div id="checkbox">
-                    <label><strong>Selecione as tecnologias que voce utiliza ? </strong></label>
-                    <br>
+                    <label>Qual o seu personagem favorito da tripulaçao do chapéu de palha?</label>
                     <br>
                     <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
-                    <label for="tecnologia1">HTML</label>
-                    <input type="checkbox" id="tecnologia1" name="tecnologia2" value="CSS">
-                    <label for="tecnologia2">CSS</label>
-                    <input type="checkbox" id="tecnologia1" name="tecnologia3" value="JavaScript">
-                    <label for="tecnologia3">JavaScript</label>
-                    <input type="checkbox" id="tecnologia1" name="tecnologia4" value="PHP">
-                    <label for="tecnologia4">PHP</label>
-                    <input type="checkbox" id="tecnologia1" name="tecnologia5" value="Python">
-                    <label for="tecnologia5">Python</label>
-                    <input type="checkbox" id="tecnologia1" name="tecnologia6" value="Java">
-                    <label for="tecnologia6">Java</label>
+                    <label for="tecnologia1">LUFFY</label>
+                    <input type="checkbox" id="luffy" name="luffy" value="luffy">
+                    <label for="tecnologia2">ZORO</label>
+                    <input type="checkbox" id="zoro" name="zoro" value="zoro">
+                    <label for="tecnologia3">SANJI</label>
+                    <input type="checkbox" id="sanji" name="sanji" value="sanji">
+                    <label for="tecnologia4">NAMI</label>
+                    <input type="checkbox" id="nami" name="nami" value="nami">
+                    <label for="tecnologia5">USOOP</label>
+                    <input type="checkbox" id="usoop" name="usoop" value="usoop">
+                    <label for="tecnologia6">ROBIN</label>
+                    <input type="checkbox" id="robin" name="robin" value="robin">
+                    <label for="tecnologia6">JIMBE</label>
+                    <input type="checkbox" id="jimbe" name="jimbe" value="jimbe">
+                    <label for="tecnologia6">BROOK</label>
                 </div>
             </fieldset>
 
+            <br>
+            <br>
         <!-- Caixa de texto -->
             <div class="campo">
+                <label>Conte um pouco da sua experiencia com o anime One Piece:</label>
                 <br>
-                <br>
-                <label><strong>Conte um pouco da sua experiencia: </strong></label>
-                <textarea name="experiencia" id="experiencia" rows="6" style="width: 26em;"></textarea>
+                <textarea class="experiencia" name="experiencia" id="experiencia" rows="6"></textarea>
             </div>
-            
+            <br>
         <!-- Botão para enviar o formulário -->
-            <button class="botao" type="submit" media="(max-width: 10px)" onsubmit="">Concluido</button>
+            <button class="concluido" type="submit" media="(max-width: 10px)" onsubmit="">Concluido</button>
             
          </form>
+         <br>
+         <br>
+
+         <footer class="rodape">
+            <img  class="rodape-imagem" src="../Landing Page/logo2.svg" alt="Logo 2 da comunidade Icaroiz">
+        </footer>
+
 
         </div>
 
