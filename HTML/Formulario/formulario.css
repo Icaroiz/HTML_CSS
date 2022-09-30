@@ -27,28 +27,66 @@ body{
     margin: 0px auto;
 }
 
-.nome{
-    display: block;
-    border-radius: 30px;
-    width: 400px;
-    height: 30px;
-    margin: 10px auto;
+.genero{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:antiquewhite;
+    border: 20px none;
+    width: 50%; 
+    margin: 0px auto;
+} 
+
+.checkcbox_custom{
+    background-color: none;
 }
 
-.sobrenome{
-    display: block;
-    border-radius: 30px;
-    width: 400px;
-    height: 30px;
-    margin: 10px auto;
+.container:hover input ~ .checkmark{
+    background-color: #ccc;
 }
-.email{
-    display: block;
-    border-radius: 30px;
-    width: 400px;
-    height: 30px;
-    margin: 10px auto;
+
+.container input:checked ~ .checkmark{
+    background-color: #ff0a54;
 }
+
+.uf{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:antiquewhite;
+}
+
+.personagem{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:antiquewhite;
+    border: 0.4px none;
+    align-content: center;
+    width: 50%; 
+    margin: 0px auto;
+}
+
+.experiencia{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    border: 0.4px none;
+    border-radius: 30px;
+    align-content: center;
+    width: 60%; 
+    margin: 0px auto;
+}
+
+#label{
+    color: antiquewhite;
+}
+
+#experiencia{
+    border: 2px solid #2F2325;
+}
+
 
 .senioridade{
     font-size: 16px;
@@ -57,17 +95,30 @@ body{
     height: 25px;
 }
 
-.experiencia{
-    border-radius: 20px;
-    width: 600px;
-    height: 200px;
+.nome{   
+    display: block;
+    border-radius: 30px;
+    border: 2px solid #2F2325;
+    width: 400px;
+    height: 30px;
+    margin: 10px auto;
 }
 
-.campo{
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color:antiquewhite;
+.sobrenome{
+    display: block;
+    border-radius: 30px;
+    border: 2px solid #2F2325;
+    width: 400px;
+    height: 30px;
+    margin: 10px auto;
+}
+.email{
+    display: block;
+    border-radius: 30px;
+    border: 2px solid #2F2325;
+    width: 400px;
+    height: 30px;
+    margin: 10px auto;
 }
 
 .cabecalho-item:hover {
@@ -83,7 +134,7 @@ body{
     padding: 24px;
 }
 .cabecalho-foto{
-    height: 150px;
+    height: 120px;
 }
 
 .cabecalho-menu{

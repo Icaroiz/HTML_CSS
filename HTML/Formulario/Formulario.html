@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
      <!-- Metadados -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
        <!-- CSS -->
     <link rel="stylesheet" type= "text/css" href="formulario.css">
     <link rel="shortcut icon" href="../imagens/logo.ico" type="image/x-icon">
-
     <!-- Título da página (aparece na aba) -->
     <title>Cadastro de Usuarios</title>
 </head>
 <body>
-
     <header class="cabecalho">
        <a href="../Landing Page/index.html"><img class="cabecalho-foto" src="../Landing Page/logo.svg" alt="Logo da comunidade Icaroiz"> </a>
         <nav class="cabecalho-menu">
@@ -51,27 +47,28 @@
             </div>
         </fieldset>
 
-        
         <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
-        <fieldset class="grupo" > 
-            <div class="campo">
+    <fieldset class="genero"> 
+            <div class="checkcbox_custom">
                <label>Em qual genero voce se indentifica ? </label>
-                <br>
-               <label>
-                    <input type="radio" name="devweb" id="frontend"checked>Hétero
-               </label>
-               <label>
-                    <input type="radio" name="devweb" id="backend">Homossexual
-               </label>
-               <label>
-                    <input type="radio" name="devweb" id="fullstack">Prefiro não identificar
-               </label>
             </div>
-        </fieldset>
+               <label class="container">Hétero
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+               </label>
+               <label class="container">Homossexual
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+               </label>
+               <label class="container">Prefiro não identificar
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+               </label>
+    </fieldset>
        
         <br>
         <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
-            <div class="campo">
+            <div class="uf">
                 <label   for="senioridade">UF</label>
                 <select id="senioridade" class="senioridade">
                     <option selected disabled value="">selecione</option>
@@ -82,7 +79,7 @@
             </div>
             <br>
         <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
-            <fieldset class="grupo">
+            <fieldset class="personagem">
                 <div id="checkbox">
                     <label>Qual o seu personagem favorito da tripulaçao do chapéu de palha?</label>
                     <br>
@@ -106,18 +103,19 @@
             </fieldset>
 
             <br>
-            <br>
+        
         <!-- Caixa de texto -->
+        <fieldset class="experiencia">
             <div class="campo">
-                <label>Conte um pouco da sua experiencia com o anime One Piece:</label>
+                <label id="label">Conte um pouco da sua experiencia com o anime One Piece:</label>
                 <br>
-                <textarea class="experiencia" name="experiencia" id="experiencia" rows="6"></textarea>
+                <textarea class="experiencia" name="experiencia" id="experiencia" rows="6" border: 10px solid #888;></textarea>
             </div>
             <br>
         <!-- Botão para enviar o formulário -->
             <button class="concluido" type="submit" media="(max-width: 10px)" onsubmit="">Concluido</button>
-            
-         </form>
+        </fieldset>  
+    </form>
          <br>
          <br>
 
