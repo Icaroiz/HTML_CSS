@@ -76,13 +76,9 @@ body{
     background-color: rgba(236, 214, 196, 0.53);
 }
 
-.a{
-    color: black;
-}
-
-#botao_meadicione{
-    color: black;
-}
+a { 
+    color: inherit; 
+} 
 
 .botao{
     background-color: antiquewhite;
@@ -94,7 +90,7 @@ body{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: black;
+  
 }
 
 .conteudo-escrito-imagem{
