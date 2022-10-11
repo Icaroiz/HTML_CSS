@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 body{
+    align-items: center;
+    align-content: center;
     background-color: rgb(42, 107, 107);
     font-family: Verdana;
     font-size: 20px;
@@ -20,4 +22,10 @@ p{
 }
 link{
     text-align: left;
+}
+a { 
+    color: inherit; 
+} 
+abbr{
+    color: inherit;
 }
