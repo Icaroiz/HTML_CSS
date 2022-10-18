@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 *{
-    margin :10;
-    padding: 10;
+    margin :auto;
+    padding: 20;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -29,13 +29,23 @@ p{
 }
 
 a { 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: #CAFF8A ; 
-    border-radius: 6px;
-    padding: 10px;
+
+    color:inherit ; 
+   
 } 
 abbr{
     color: inherit;
+}
+
+.cabecalho{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-item:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+    border-radius: 2px;
 }
