@@ -1,30 +1,40 @@
 @charset "UTF-8";
 
+*{
+    margin :10;
+    padding: 10;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 body{
     align-items: center;
     align-content: center;
-    background-color: rgb(42, 107, 107);
+    background-color:#3E442B;
     font-family: Verdana;
     font-size: 20px;
 }
 h1{
     color: white;
-    background-color: lightblue;
+    background-color: #C9D5B5;
 }
 h2{
     text-align: center;
-    color: blue;
+    color:white;
 }
 p{  
     text-align: center;
     color: lightyellow;
     font-family: Arial, Helvetica, sans-serif;
 }
-link{
-    text-align: left;
-}
+
 a { 
-    color: inherit; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #CAFF8A ; 
+    border-radius: 6px;
+    padding: 10px;
 } 
 abbr{
     color: inherit;
