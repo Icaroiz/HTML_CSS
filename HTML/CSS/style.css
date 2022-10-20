@@ -10,21 +10,25 @@ body{
     align-items: center;
     align-content: center;
     font-family: Verdana;
-    background-image: linear-gradient(to right , #698178, #3E442B);
+    background-image: linear-gradient(to right , #5a6964, #3E442B);
     font-size: 20px;
 }
 h1{
     text-align: center;
     color: white;
-    background-color: #C9D5B5;
-    width: 800px;
+    background-color: #292b28;
+    width: 130px;
     padding: 10px;
+    border-radius: 40px;
+    font-size: 15px;
 }
+
 h2{
     text-align: center;
     color:white;
     width: 800px;
     padding: 10px;
+    border-radius: 100px;
 }
 h3{
     text-align: center;
@@ -96,7 +100,8 @@ blockquote{
 
 .cabecalho-item:hover {
     background-color: rgba(236, 214, 196, 0.53);
-    border-radius: 2px;
+    border-radius: 4px;
+    box-shadow: 20px 25px 15px #2F3633;
 }
 
 .link1{
@@ -172,6 +177,22 @@ blockquote{
 .vimeo{
     text-align: center;
     padding: 10px;
+}
+
+.carrousel{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain ;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.card{
+    width: 130px;
+    height: auto;
 }
 
 

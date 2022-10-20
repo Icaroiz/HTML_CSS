@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logo.ico" type="image/x-icon">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/formulario2.css">
+</head>
+<body>
+
+    <div class="carrousel">
+        <header class="cabecalho">
+    
+            <article class="card">
+                <h1><a href="index.html" rel="next" class="cabecalho-item" ><abbr title="Index">Index</abbr></a></h1>
+            </article>
+        
+            <article class="card">
+                <h1><a href="imagens.html" rel="next" class="cabecalho-item"><abbr title="Imagens">Imagens</abbr></a></h1>
+            </article>
+    
+            <article class="card">
+                <h1><a href="link.html" rel="next" class="cabecalho-item"><abbr title="Links">Links</abbr></a></h1>
+            </article>
+    
+            <article class="card">
+                <h1><a href="listas.html" rel="next" class="cabecalho-item"><abbr title="Listas">Listas</abbr></a></h1>
+            </article>
+    
+            <article class="card">
+                <h1><a href="formatacoes.html" rel="next" class="cabecalho-item"><abbr title="Formatações">Formatações</abbr></a></h1>
+            </article>
+    
+            <article class="card">
+                <h1><a href="hierarquia.html" rel="next" class="cabecalho-item"><abbr title="Hierarquia">Hierarquia</abbr></a></h1>
+            </article>
+    
+            <article class="card">
+                <h1><a href="negrito_italico.html" rel="next"  class="cabecalho-item"><abbr title="Negrito ou Italico">Negrito ou Italico</abbr></a></h1>
+            </article>
+    
+            <article class="card">
+                <h1><a href="midias.html" rel="next" class="cabecalho-item"><abbr title="Midias">Midias</abbr></a></h1>
+            </article>
+    
+            <article class="card">
+                <h1><a href="formulario.html" rel="next" class="cabecalho-item"><abbr title="Midias">Formulario</abbr></a></h1>
+            </article>
+    
+            <article class="card">
+                <h1><a href="cores.html" target="_self" class="cabecalho-item"><abbr title="Midias">Página de Cores</abbr></a></h1>
+            </article>
+    
+        </header>
+    </div>
+
+    <div class ="titulo">
+        <h1>Cadastro de Usuarios</h1>
+    </div>             <!-- Início do formulário -->
+            <form>
+                <fieldset class="grupo" > 
+            <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                    <div class="campo_nome">
+                        <label for="nome">Nome: </label>
+                        <input class="nome" type="text",name="nome" id="nome" required>
+                    </div>
+            <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                    <div class="campo_sobrenome">
+                        <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" class="sobrenome" name="sobrenome" id="sobrenome" required>
+                    </div>
+                    <div class="campo">
+                        <label for="email">Email:</label>
+                    <input type="email" class="email" name="email" id="email" required>
+                </div>
+            </fieldset>
+    
+            <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+        <fieldset class="genero"> 
+                <div class="checkcbox_custom">
+                   <label>Em qual genero voce se indentifica ? </label>
+                </div>
+                   <label class="container">Hétero
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                   </label>
+                   <label class="container">Homossexual
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                   </label>
+                   <label class="container">Prefiro não identificar
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                   </label>
+        </fieldset>
+           
+            <br>
+            <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+                <div class="uf">
+                    <label   for="senioridade">UF</label>
+                    <select id="senioridade" class="senioridade">
+                        <option selected disabled value="">selecione</option>
+                        <option>CE</option>
+                        <option>BH</option>
+                        <option>PB</option>
+                    </select>
+                </div>
+                <br>
+            <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                <fieldset class="personagem">
+                    <div id="checkbox">
+                        <label>Qual o seu personagem favorito da tripulaçao do chapéu de palha?</label>
+                        <br>
+                        <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                        <label for="tecnologia1">LUFFY</label>
+                        <input type="checkbox" id="luffy" name="luffy" value="luffy">
+                        <label for="tecnologia2">ZORO</label>
+                        <input type="checkbox" id="zoro" name="zoro" value="zoro">
+                        <label for="tecnologia3">SANJI</label>
+                        <input type="checkbox" id="sanji" name="sanji" value="sanji">
+                        <label for="tecnologia4">NAMI</label>
+                        <input type="checkbox" id="nami" name="nami" value="nami">
+                        <label for="tecnologia5">USOOP</label>
+                        <input type="checkbox" id="usoop" name="usoop" value="usoop">
+                        <label for="tecnologia6">ROBIN</label>
+                        <input type="checkbox" id="robin" name="robin" value="robin">
+                        <label for="tecnologia6">JIMBE</label>
+                        <input type="checkbox" id="jimbe" name="jimbe" value="jimbe">
+                        <label for="tecnologia6">BROOK</label>
+                    </div>
+                </fieldset>
+    
+                <br>
+            
+            <!-- Caixa de texto -->
+            <fieldset class="experiencia">
+                <div class="campo">
+                    <label id="label">Conte um pouco da sua experiencia com o anime One Piece:</label>
+                    <br>
+                    <textarea class="experiencia" name="experiencia" id="experiencia" rows="6" border: 10px solid #888;></textarea>
+                </div>
+                <br>
+            <!-- Botão para enviar o formulário -->
+                <button class="concluido" type="submit" media="(max-width: 10px)" onsubmit="">Concluido</button>
+            </fieldset>  
+        </form>
+             <br>
+             <br>
+    
+             <footer class="rodape">
+                <img  class="rodape-imagem" src="Landing Page/logo2.svg" alt="Logo 2 da comunidade Icaroiz">
+            </footer>
+    
+
+</body>
+</html>

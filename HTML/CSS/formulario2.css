@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    text-align: center;
+    margin :auto;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(to right , #5a6964, #3E442B);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: #292b28;
+    width: 130px;
+    height: auto;
+    padding: 5px;
+    border-radius:40px;
+    font-size: 15px;
+}
+
+a {
+    color:inherit ; 
+} 
+
+abbr{
+    color: inherit;
+}
+
+.total{
+    text-align: center;
+}
+
+
+.titulo{
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    color:antiquewhite;
+}
+.grupo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:antiquewhite;
+    border: 0.4px none;
+    align-content: center;
+    width: 50%; 
+    margin: 0px auto;
+}
+
+.genero{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:antiquewhite;
+    border: 20px none;
+    width: 50%; 
+    margin: 0px auto;
+} 
+
+.checkcbox_custom{
+    background-color: none;
+}
+
+.container:hover input ~ .checkmark{
+    background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark{
+    background-color: #ff0a54;
+}
+
+.uf{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:antiquewhite;
+}
+
+.personagem{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:antiquewhite;
+    border: 0.4px none;
+    align-content: center;
+    width: 50%; 
+    margin: 0px auto;
+}
+
+.experiencia{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    border: 0.4px none;
+    border-radius: 30px;
+    align-content: center;
+    width: 60%; 
+    margin: 0px auto;
+}
+
+#label{
+    color: antiquewhite;
+}
+
+#experiencia{
+    border: 2px solid #2F2325;
+}
+
+
+.senioridade{
+    font-size: 16px;
+    border-radius: 6px;
+    width: 150px;
+    height: 25px;
+}
+
+.nome{   
+    display: block;
+    border-radius: 30px;
+    border: 2px solid #2F2325;
+    width: 400px;
+    height: 30px;
+    margin: 10px auto;
+}
+
+.sobrenome{
+    display: block;
+    border-radius: 30px;
+    border: 2px solid #2F2325;
+    width: 400px;
+    height: 30px;
+    margin: 10px auto;
+}
+.email{
+    display: block;
+    border-radius: 30px;
+    border: 2px solid #2F2325;
+    width: 400px;
+    height: 30px;
+    margin: 10px auto;
+}
+
+.cabecalho-item:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+    border-radius: 6px;
+}
+
+.cabecalho{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-foto{
+    height: 120px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-item{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.concluido:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.concluido{
+    background-color: antiquewhite;
+    width: 185px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:#2F2325 ;
+}
+
+.conteudo-secundario{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.rodape{
+    padding: 20px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem{
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+} 
+
+.carrousel{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain ;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.card{
+    width: 130px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
