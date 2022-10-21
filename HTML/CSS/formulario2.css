@@ -232,6 +232,13 @@ abbr{
     height: auto;
 }
 
+.titulo_formulario{
+    background-color: #5a6964;
+    width: 500px;
+    padding-bottom: 8px; 
+    border-radius: 40px;
+    color: white;
+}
 
 
 

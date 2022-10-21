@@ -9,39 +9,50 @@
 body{
     align-items: center;
     align-content: center;
-    font-family: Verdana;
-    background-image: linear-gradient(to right , #5a6964, #3E442B);
+    font-family: cursive;
+    background-image: linear-gradient(to right , #187453, #aedd14);
     font-size: 20px;
 }
 h1{
     text-align: center;
-    color: white;
-    background-color: #292b28;
+    color: rgb(246, 247, 245);
+    background-color: #090e06;
     width: 130px;
     padding: 10px;
     border-radius: 40px;
     font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
     text-align: center;
-    color:white;
-    width: 800px;
-    padding: 10px;
-    border-radius: 100px;
+    color:rgb(255, 255, 255);
+    width: 400px;
+    padding: 2px;
+    border-radius: 30px;
+    background-color: #292b28;
 }
 h3{
     text-align: center;
     color: white;
+    background-color: #ebebeb;
+    border-radius: 30px;
+    padding: 5px;
+    width: 600px;
+    font-size: 20px;
 }
 h4{
     text-align: center;
     color: white;
+    background-color: #0d640a;
+    border-radius: 30px;
+    width: 350px;
+    font-size: 16px;
 }
 
 p{  
     text-align: center;
-    color: lightyellow;
+    color: rgb(15, 15, 14);
     font-family: Arial, Helvetica, sans-serif;
     margin :auto;
     padding: 15px;
@@ -60,6 +71,9 @@ ol{
 dt{
     text-align: center;
     color: white;
+    background-color: #292b28;
+    width: 200px;
+    border-radius: 40px;
 }
 dd{
     text-align: center;
@@ -99,7 +113,7 @@ blockquote{
 }
 
 .cabecalho-item:hover {
-    background-color: rgba(236, 214, 196, 0.53);
+    background-color: rgb(14, 148, 238);
     border-radius: 4px;
     box-shadow: 20px 25px 15px #2F3633;
 }
@@ -195,4 +209,59 @@ blockquote{
     height: auto;
 }
 
+.titulo_imagens{
+    background-color: #020303;
+    width: 500px;
+    padding-bottom: 10px;
 
+}
+
+.titulo_index{
+    background-color: #080808;
+    width: 500px;
+    padding-bottom: 10px;
+
+}
+
+.titulo_links{
+    background-color: #060707;
+    width: 500px;
+    padding-bottom: 10px;
+
+}
+
+.titulo_listas{
+    background-color: #070808;
+    width: 500px;
+    padding-bottom: 10px;
+
+}
+
+.titulo_formatacoes{
+    background-color: #0d0f0f;
+    width: 500px;
+    padding-bottom: 10px;
+
+}
+
+.titulo_negrito{
+    background-color: #080a09;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.titulo_midia{
+    background-color: #050706;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.titulo_cores{
+    background-color: #090c0b;
+    width: 500px;
+    padding-bottom: 10px; 
+}
+
+.tente{
+    width: 500px;
+}
