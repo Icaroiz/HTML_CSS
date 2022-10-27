@@ -9,7 +9,7 @@
 
 body{
     font-size: 20px;
-    background-image: linear-gradient(to right , #5a6964, #3E442B);
+    background-image: linear-gradient(to right , #187453, #aedd14);
 }
 
 h1{
@@ -143,7 +143,7 @@ abbr{
 }
 
 .cabecalho-item:hover {
-    background-color: rgba(236, 214, 196, 0.53);
+    background-color: rgb(14, 148, 238);
     border-radius: 6px;
 }
 
@@ -171,7 +171,7 @@ abbr{
 }
 
 .concluido:hover {
-    background-color: rgba(236, 214, 196, 0.53);
+    background-color: rgb(14, 148, 238);
 }
 
 .concluido{
@@ -233,7 +233,7 @@ abbr{
 }
 
 .titulo_formulario{
-    background-color: #5a6964;
+    background-color: black;
     width: 500px;
     padding-bottom: 8px; 
     border-radius: 40px;
