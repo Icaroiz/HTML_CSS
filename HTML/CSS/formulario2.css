@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 
 *{
     text-align: center;
     margin :auto;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration: none;    
+    font-family: 'Poor Story', cursive;
+
 }
 
 body{
@@ -29,6 +31,7 @@ a {
 
 abbr{
     color: inherit;
+    font-family: 'Kolker Brush', cursive;
 }
 
 label{
