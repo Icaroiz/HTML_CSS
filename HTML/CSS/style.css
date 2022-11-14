@@ -18,12 +18,12 @@ body{
 h1{
     text-align: center;
     color: rgb(246, 247, 245);
-    background-color: #090e06;
+    background-color: #000000;
     width: 100px;
     height: auto;
     padding: auto;
     border-radius: 40px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 h2{
@@ -119,11 +119,11 @@ blockquote{
 }
 
 .link1{
-    padding: 15px;
+    padding: 12px;
 }
 
 .link2{
-    padding: 15px;
+    padding: 10px;
 }
 
 .imagens{
@@ -211,54 +211,54 @@ blockquote{
 }
 
 .titulo_imagens{
-    background-color: #020303;
+    background-color: #000000;
     width: 500px;
     padding-bottom: 10px;
 
 }
 
 .titulo_index{
-    background-color: #080808;
+    background-color: #000000;
     width: 500px;
     padding-bottom: 10px;
 
 }
 
 .titulo_links{
-    background-color: #060707;
+    background-color: #000000;
     width: 500px;
     padding-bottom: 10px;
 
 }
 
 .titulo_listas{
-    background-color: #070808;
+    background-color: #000000;
     width: 500px;
     padding-bottom: 10px;
 
 }
 
 .titulo_formatacoes{
-    background-color: #0d0f0f;
+    background-color: #000000;
     width: 500px;
     padding-bottom: 10px;
 
 }
 
 .titulo_negrito{
-    background-color: #080a09;
+    background-color: #000000;
     width: 500px;
     padding-bottom: 10px;
 }
 
 .titulo_midia{
-    background-color: #050706;
+    background-color: #000000;
     width: 500px;
     padding-bottom: 10px;
 }
 
 .titulo_cores{
-    background-color: #090c0b;
+    background-color: #000000;
     width: 500px;
     padding-bottom: 10px; 
 }
@@ -284,13 +284,24 @@ blockquote{
     background-color: rgb(14, 148, 238);
 }
 
-nav{
+.nav_1{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 
     background-color: #020303;
     height: 5rem;
+
+    padding: 0 2.4rem;
+}
+
+.nav_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    background-color: #000000;
+    height: 12rem;
 
     padding: 0 2.4rem;
 }
@@ -302,7 +313,7 @@ ul{
     gap: 3rem;
 }
 
-a {
+a{
     color:inherit ;
 } 
 
@@ -319,4 +330,53 @@ a {
 
 .time_do_povo{
     color: #ffffff;
+}
+
+.ceara_index_2:hover{
+    outline: dotted rgb(255, 255, 255);
+}
+
+.ceara_index_1:hover{
+    outline: dotted rgb(255, 255, 255);
+}
+
+.button_contato:hover{
+    outline: dotted rgb(42, 56, 177);
+}
+
+.mouse{
+    color: white;
+}
+
+.mouse > p {
+    display: none;
+}
+
+.mouse:hover > p{
+    display: block;
+    color: #ebebeb;
+}
+
+.rep_github:active{
+    color: yellow;
+}
+
+.github:active{
+    color: yellow;
+}
+
+.rep_github::before{
+    content:'  ➪';
+}
+
+.github::before{
+    content:'  ➪ ';
+}
+
+.rep_github:hover{
+    text-decoration: underline;
+}
+
+.github:hover{
+    text-decoration: underline;
 }
