@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/logo.ico" type="image/x-icon">
-    <title>Mídias em HTML5</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
-<body >
+<body>
 
     <div class="carrousel">
         <header class="cabecalho">
@@ -39,7 +39,7 @@
             </article>
     
             <article class="card">
-                <h1><a href="negrito_italico.html" rel="next"  class="cabecalho-item"><abbr title="Negrito ou Italico">Negrito/abbr</a></h1>
+                <h1><a href="negrito_italico.html" rel="next"  class="cabecalho-item"><abbr title="Negrito ou Italico">Negrito</abbr></a></h1>
             </article>
     
             <article class="card">
@@ -56,49 +56,18 @@
     
         </header>
     </div>
+
     <br>
 
-    <h3 class="titulo_midia">Imagem dinamica</h3>
-    <br>
-    <h4 class="tente">Tente abrir esse site em vários dispositivos diferentes</h4>
-
-    <div class="picture">
-    <picture >
-        <source media="(max-width: 10px)" srcset="imagens/p.png" type="image/png"> 
-        <source media="(max-width: 2000px)" srcset="imagens/m.png" type="image/png">
-        <img src="imagens/g.png" alt="G">
-    </picture>
-    </div>  
-
-    <div class="audio">
-    <h4>Vamos aprender a reproduzir audios em HTML5</h4><br>
-    <audio preload="metadata" src="som/som1.mp3" width="500" height="360" controls ></audio>
+    <h3 class="titulo_links">Usando links externos</h3>
+    
+    <div class="link1">
+    <p>Voce pode acessar o meu <a href="https://github.com/Icaroiz/HTML5_CSS3" target="_blank" rel="external" class="rep_github" > repositorio público no Github</a></p>
     </div>
-    <!-- MP3 MPEG WAV OGG -->
-    <!-- audio  src="som/som1.mp3" type="audio/mpeg" audio-->
-    <!-- audio  src="som/som1.mp3" type="audio/ogg" audio-->
-    <!-- audio  src="som/som1.mp3" type="audio/wav" audio-->
-
-    <div class="video_interno">
-    <h4>Vamos aprender a reproduzir videos em HTML5</h4>
-    <video src="video/dev.mp4" width="560" height="360" controls >
-    </video>
-    </div>
-    <!-- video 
-        <source src= "video/dev.mp4" type="video/mp4 ">
-        <source src= "video/dev.mp4" type="video/ogv ">
-        <source src= "video/dev.mp4" type="video/webm">
-        <source src= "video/dev.mp4" type="video/ogg">
-    -->
-    <div class="youtube">
-    <h4>Vamos aprender a reproduzir videos do Youtube</h4>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/rX2I7OjLqWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube"></iframe>
+    <div class="link2">
+    <p>Voce também pode acessar o meu <a href="https://github.com/Icaroiz" target="_blank" rel="external" class="github">perfil no github</a></p>
     </div>
 
-    <div class="vimeo">
-    <h4>Vampos aprender a reproduzir videos do Vimeo</h4>
-    <iframe src="https://player.vimeo.com/video/298239000?h=a57ec7c272&color=0000FF&title=0&byline=0&portrait=0" width="560" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="vimeo"></iframe>
-    </div>
-
+</body>
 </body>
 </html>
