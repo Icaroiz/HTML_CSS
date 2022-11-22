@@ -12,8 +12,7 @@
 body{
     align-items: center;
     align-content: center;
-    background-image: url("../imagens/black.webp");
-    background-size: cover;
+    background-color: #000000;
 }
 h1{
     text-align: center;
@@ -103,6 +102,17 @@ blockquote{
     text-align: center;
     color: white;
 }
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+
+a{
+    color:inherit ;
+} 
 
 .cabecalho{
     display : flex;
@@ -198,6 +208,7 @@ blockquote{
     display: grid;
     grid-auto-flow: column;
     scroll-behavior: auto;
+    width: 800px;
     gap: 1.2rem;
     overflow-y: auto;
     overscroll-behavior-x: contain ;
@@ -290,7 +301,8 @@ blockquote{
     align-items: flex-end;
 
     background-color: #020303;
-    height: 5rem;
+    height: auto;
+    width: auto;
 
     padding: 0 2.4rem;
 }
@@ -301,21 +313,11 @@ blockquote{
     align-items: flex-end;
 
     background-color: #000000;
-    height: 12rem;
+    height: auto;
+    width: auto;
 
-    padding: 0 2.4rem;
+    padding: 3rem;
 }
-
-ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 3rem;
-}
-
-a{
-    color:inherit ;
-} 
 
 .foto_index{
     display: flex;
@@ -380,3 +382,116 @@ a{
 .github:hover{
     text-decoration: underline;
 }
+
+.nav_3{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    background-color: #000000;
+    height: auto;
+    width: auto;
+
+    padding: 3rem;
+}
+
+.titulos{
+    display: flex;
+    text-align: center;
+    
+    justify-content: space-between;
+    margin-left: auto;
+
+}
+
+.imagem_nordestao{
+background-image: url(../imagens/nordeste.png);  
+  height:150px;
+  width:150px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-size:100% auto; 
+}
+
+.texto{
+    padding:20px;
+    font-family:Arial;
+    text-align:center;
+    color:white;
+    opacity:0;
+    transition: opacity .2s linear;
+    background-color:rgba(0,0,0,.7);
+  }
+
+.imagem_nordestao:hover .texto{
+    opacity:1;
+   }
+
+.imagem_cearense{
+    background-image: url(../imagens/cearense.png);  
+      height:150px;
+      width:150px;
+      margin-left: 5%;
+      margin-right: 5%;
+      background-size:100% auto; 
+    }
+    
+.texto{
+        padding:20px;
+        font-family:Arial;
+        text-align:center;
+        color:white;
+        opacity:0;
+        transition: opacity .2s linear;
+        background-color:rgba(0,0,0,.7);
+      }
+    
+.imagem_cearense:hover .texto{
+        opacity:1;
+       }
+
+.imagem_asabranca{
+        background-image: url(../imagens/asabranca.png);  
+          height:150px;
+          width:150px;
+          margin-left: 5%;
+          margin-right: 5%;
+          background-size:100% auto; 
+        }
+        
+.texto{
+            padding:20px;
+            font-family:Arial;
+            text-align:center;
+            color:white;
+            opacity:0;
+            transition: opacity .2s linear;
+            background-color:rgba(0,0,0,.7);
+          }
+        
+ .imagem_asabranca:hover .texto{
+            opacity:1;
+           }      
+
+ .imagem_norte{
+        background-image: url(../imagens/norte-nordeste.png);  
+          height:150px;
+          width:150px;
+          margin-left: 5%;
+          margin-right: 5%;
+          background-size:100% auto; 
+        }
+        
+.texto{
+            padding:20px;
+            font-family:Arial;
+            text-align:center;
+            color:white;
+            opacity:0;
+            transition: opacity .2s linear;
+            background-color:rgba(0,0,0,.7);
+          }
+        
+ .imagem_norte:hover .texto{
+            opacity:1;
+           }    
