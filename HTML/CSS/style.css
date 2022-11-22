@@ -408,8 +408,7 @@ a{
 background-image: url(../imagens/nordeste.png);  
   height:150px;
   width:150px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: auto;
   background-size:100% auto; 
 }
 
@@ -431,8 +430,7 @@ background-image: url(../imagens/nordeste.png);
     background-image: url(../imagens/cearense.png);  
       height:150px;
       width:150px;
-      margin-left: 5%;
-      margin-right: 5%;
+      margin: auto;
       background-size:100% auto; 
     }
     
@@ -454,8 +452,7 @@ background-image: url(../imagens/nordeste.png);
         background-image: url(../imagens/asabranca.png);  
           height:150px;
           width:150px;
-          margin-left: 5%;
-          margin-right: 5%;
+          margin: auto;
           background-size:100% auto; 
         }
         
@@ -477,8 +474,7 @@ background-image: url(../imagens/nordeste.png);
         background-image: url(../imagens/norte-nordeste.png);  
           height:150px;
           width:150px;
-          margin-left: 5%;
-          margin-right: 5%;
+          margin: auto;
           background-size:100% auto; 
         }
         
@@ -495,3 +491,9 @@ background-image: url(../imagens/nordeste.png);
  .imagem_norte:hover .texto{
             opacity:1;
            }    
+
+.titulos_text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
