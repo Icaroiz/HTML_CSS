@@ -124,9 +124,7 @@ a{
 }
 
 .cabecalho-item:hover {
-    background-color: rgb(14, 148, 238);
-    border-radius: 4px;
-    box-shadow: 20px 25px 15px #2F3633;
+    color: rgb(255, 230, 0);
 }
 
 .link1{
@@ -209,7 +207,7 @@ a{
     display: grid;
     grid-auto-flow: column;
     scroll-behavior: auto;
-    width: 800px;
+    width: 1200px;
     gap: 1.2rem;
     overflow-y: auto;
     overscroll-behavior-x: contain ;
@@ -234,6 +232,10 @@ a{
     width: 500px;
     padding-bottom: 10px;
     font-size: 25px;
+}
+
+.titulo_index:hover{
+    opacity: 80%;
 }
 
 .titulo_links{
@@ -286,9 +288,9 @@ a{
     padding: 1rem 1.6rem;
     background-color:white;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
+    border-radius: 20px;
     font-family: 'Sarala', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: #020303;
 }
 
@@ -306,6 +308,10 @@ a{
     width: auto;
 
     padding: 0 2.4rem;
+}
+
+.nav1_text:hover{
+    opacity: 80%;
 }
 
 .nav_2{
@@ -336,28 +342,26 @@ a{
 }
 
 .ceara_index_2:hover{
-    outline: dotted rgb(255, 255, 255);
+    opacity: 80%;
 }
 
-.ceara_index_1:hover{
-    outline: dotted rgb(255, 255, 255);
-}
 
 .button_contato:hover{
     outline: dotted rgb(42, 56, 177);
 }
 
 .mouse{
-    color: white;
+    color: yellow
 }
 
 .mouse > p {
     display: none;
+    color: yellow;
 }
 
 .mouse:hover > p{
     display: block;
-    color: #ebebeb;
+    color: #fffb02;
 }
 
 .rep_github:active{
@@ -390,7 +394,7 @@ a{
     text-align: center;
 
     background-color: #000000;
-    height: auto;
+    height: 240px;
     width: auto;
 
     padding: 3rem;
@@ -496,5 +500,20 @@ background-image: url(../imagens/nordeste.png);
 .titulos_text{
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 21px;
+}
+
+.rodape{
+    display: block;
+    text-align: center;
+
+    justify-content: space-between;
+
+}
+
+.rodape-imagem:hover{
+    color: #ffffff;
+    opacity:80%;
+
+
 }
