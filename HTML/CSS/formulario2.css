@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 *{
     text-align: center;
@@ -6,13 +6,13 @@
     box-sizing: border-box;
     text-decoration: none; 
     font-size: 15px;
-    font-family: 'Poor Story', cursive;
+    font-family: 'Secular One', sans-serif;
 
 }
 
 body{
     font-size: 15px;
-    background-image: url("../imagens/black.webp");
+    background-color: #000000;
     background-size: cover;
 }
 
@@ -25,7 +25,6 @@ h1{
     height: auto;
     padding: auto;
     border-radius:40px;
-    font-size: 18px;
 }
 
 h2{
@@ -62,7 +61,6 @@ a {
 
 abbr{
     color: inherit;
-    font-family: 'Poor Story', cursive;
     font-size: 17px;
 
 }
@@ -76,6 +74,7 @@ label{
     display: grid;
     grid-auto-flow: column;
     scroll-behavior: auto;
+    width: 1200px;
     gap: 1.2rem;
     overflow-y: auto;
     overscroll-behavior-x: contain ;
@@ -90,12 +89,10 @@ label{
 
 .titulo{
     text-align: center;
-    font-family: 'Poor Story', cursive;
     font-size: 20px;
     color:antiquewhite;
 }
 .grupo{
-    font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color:antiquewhite;
@@ -106,7 +103,6 @@ label{
 }
 
 .genero{
-    font-family: 'Poor Story', cursive;
     font-weight: 400;
     font-size: 18px;
     color:antiquewhite;
@@ -128,14 +124,12 @@ label{
 }
 
 .uf{
-    font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color:antiquewhite;
 }
 
 .personagem{
-    font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color:antiquewhite;
@@ -146,7 +140,6 @@ label{
 }
 
 .experiencia{
-    font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: black;
@@ -197,8 +190,7 @@ label{
 }
 
 .cabecalho-item:hover {
-    background-color: rgb(14, 148, 238);
-    border-radius: 6px;
+    color: rgb(255, 230, 0);
 }
 
 .cabecalho{
@@ -218,7 +210,6 @@ label{
 }
 
 .cabecalho-item{
-    font-family: 'Sarala', sans-serif;
     color: white;
     font-weight: 400;
     font-size: 18px;
@@ -235,7 +226,6 @@ label{
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color:#2F2325 ;
@@ -252,7 +242,6 @@ label{
 .conteudo-secundario-titulo{
     border-top: 0.4px solid #FFF2E7;
     padding-top: 48px;
-    font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
     color: white;
@@ -269,22 +258,6 @@ label{
     display: block;
     margin: 0 auto;
 } 
-
-.carrousel{
-    display: grid;
-    grid-auto-flow: column;
-    scroll-behavior: auto;
-    gap: 1.2rem;
-    overflow-y: auto;
-    overscroll-behavior-x: contain ;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-}
-
-.card{
-    width: 130px;
-    height: auto;
-}
 
 .titulo_formulario{
     background-color: black;

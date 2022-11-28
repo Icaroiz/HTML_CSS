@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 *{
+    text-align: center;
     margin :auto;
     box-sizing: border-box;
-    text-decoration: none;
+    text-decoration: none; 
     font-size: 15px;
     font-family: 'Secular One', sans-serif;
 
@@ -15,6 +16,14 @@ body{
     align-content: center;
     background-color: #000000;
 }
+
+main{
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    height: auto;
+}
+
 h1{
     text-align: center;
     color: rgb(246, 247, 245);
@@ -23,7 +32,6 @@ h1{
     height: auto;
     padding: auto;
     border-radius: 40px;
-    font-size: 18px;
 }
 
 h2{
