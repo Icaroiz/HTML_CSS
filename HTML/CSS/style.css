@@ -502,7 +502,7 @@ background-image: url(../imagens/nordeste.png);
             background-color:rgba(0,0,0,.7);
           }
         
- .imagem_norte:hover .texto{
+.imagem_norte:hover .texto{
             opacity:1;
            }    
 
@@ -523,6 +523,4 @@ background-image: url(../imagens/nordeste.png);
 .rodape-imagem:hover{
     color: #ffffff;
     opacity:80%;
-
-
 }
