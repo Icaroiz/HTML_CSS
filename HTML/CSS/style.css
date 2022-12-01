@@ -15,7 +15,7 @@
 body{
     align-items: center;
     align-content: center;
-    background-color: #000000;
+    background-color: #63655A;
 }
 
 main{
@@ -27,8 +27,8 @@ main{
 
 h1{
     text-align: center;
-    color: rgb(246, 247, 245);
-    background-color: #000000;
+    color: rgb(255, 255, 255);
+    background-color: #63655A;
     width: 100px;
     height: auto;
     padding: auto;
@@ -70,6 +70,7 @@ p{
 }
 
 li{
+    font-size: 18px;
     color: white;
     text-align: center;
 }
@@ -237,7 +238,7 @@ a{
 }
 
 .titulo_index{
-    background-color: #000000;
+    background-color: #63655A;
     width: 500px;
     padding-bottom: 10px;
     font-size: 25px;
@@ -312,7 +313,7 @@ a{
     justify-content: space-between;
     align-items: flex-end;
 
-    background-color: #020303;
+    background-color: #63655A;
     height: auto;
     width: auto;
 
@@ -328,7 +329,7 @@ a{
     justify-content: space-between;
     align-items: flex-end;
 
-    background-color: #000000;
+    background-color: #63655A;
     height: auto;
     width: auto;
 
@@ -340,7 +341,7 @@ a{
     justify-content: space-between;
     align-items: flex-end;
 
-    background-color: #000000;
+    background-color: #63655A;
     height: 200px;
 
     padding: 0 2.4rem;
@@ -402,7 +403,7 @@ a{
     justify-content: space-between;
     text-align: center;
 
-    background-color: #000000;
+    background-color: #63655A;
     height: 240px;
     width: auto;
 
@@ -517,7 +518,8 @@ background-image: url(../imagens/nordeste.png);
     text-align: center;
 
     justify-content: space-between;
-
+    border-top: 0.4px solid #FFF2E7;
+    padding: 20px;
 }
 
 .rodape-imagem:hover{

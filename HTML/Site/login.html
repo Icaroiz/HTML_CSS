@@ -8,12 +8,17 @@
     <title>Login</title>
 </head>
 <style>
+
+    *{
+        box-sizing: border-box;
+    }
+
     body{
         font-family: Arial, Helvetica, sans-serif;
         background-color: #63655A;
     }
 
-    main{
+    form{
         display: flex;
         justify-content: center;
         align-content: center;
@@ -57,17 +62,17 @@
         outline: none;
     }
 
-    .button_entrar{
+    .login-button{
         background-color: yellow;
         border: none;
         font-size: 15px;
         padding: 10px;
-        width: 220px;
+        width: 210px;
         border-radius: 10px;
         color:black;
     }
 
-    .button_entrar:hover{
+    .login-button:hover{
         background-color: deepskyblue;
         cursor: pointer;
     }
@@ -77,7 +82,7 @@
         border: none;
         font-size: 13px;
         padding: 2px;
-        width: 220px;
+        width: 140px;
         border-radius: 10px;
         color:rgb(255, 255, 255);
     }
@@ -91,50 +96,77 @@
         border: none;
         font-size: 12px;
         padding: 2px;
-        width: 220px;
+        width: 150px;
         border-radius: 10px;
         color:rgb(255, 255, 255);
     }
 
-    .button_recuperar:hover{
-        text-decoration: underline;
+    .button_recuperar[disabled]{
+        opacity: 0.7;
     }
 
 </style>
+
 <body>
-    <main>
+    <form>
         <div class="div_login">
             <h1>Login</h1>
-            <input type="text" placeholder="EMAIL" id="email" class="input_email" onchange="validateFields()">
+            <input type="email" placeholder="EMAIL" name= "email" id="email" class="input_email" onchange="validateFields()"/>
             <br>
-            <input type="password" placeholder="SENHA" class="input_senha" >
+            <input type="password" name="password" id="password" placeholder="SENHA" class="input_senha" onchange="validateFields()"/>
             <br>
-            <button class="button_entrar" type="submit" media="(max-width: 10px)" disabled="true" >ENTRAR</button>
+            <button type= "button" class="login-button" name="login-button" id="login-button"   onclick="logar()">ENTRAR</button>
             <br>
-            <button class="button_registrar" type="submit" media="(max-width: 10px)" disabled="true" >REGISTRAR</button>
+            <button type= "button" class="button_recuperar" id="recuperar"  disabled="true" >RECUPERAR SENHA</button>
             <br>
-            <button class="button_recuperar" id="recuperar" type="submit" media="(max-width: 10px)" disabled="true" >RECUPERAR SENHA</button>
+            <button type= "button" class="button_registrar">REGISTRAR</button> 
 
+</form>
 
             <script>
-                function validateFields(){
-                  const email = document.getElementById("email").value;
-                  if(!email){
-                    document.getElementById('recuperar').disable = true;
-                  }else{
 
-                  }
+                function logar(){
+
+                    var email = document.getElementById('email').value;
+                    var password = document.getElementById('password').value;
+
+                    if(email == "icaro" && password == "icaro1280"){
+                        alert('Sucesso');
+                        location.href = "index.html"
+                    }else{
+                        alert('email ou senha incorretos !')
+                    }
+
+                }
+
+                function validateFields(){
+                    const emailValid = isEmailValid();
+                    document.getElementById('recuperar').disable = !emailValid;
+
+                    const PasswordValid = isPasswordValid();
+                    document.getElementById('login-button').disable = !emailValid || !PasswordValid;
+                }
+
+                function isEmailValid(){
+                    const email = document.getElementById("email").value;
+                    if (!email){
+                        return false;
+                    }
+                    return validateEmail(email);
+                }
+
+                function isPasswordValid(){
+                    const password = document.getElementById("password").value;
+                    if(!password){
+                        return false;
+                    }
+                    return true;
                 }
 
                 function validateEmail(email){
                     return /\S+@\S+\.\S+/.test(email);
-                }
-
-
-
+                } 
 
             </script>
-
-
 </body>
 </html>
