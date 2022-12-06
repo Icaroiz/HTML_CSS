@@ -74,7 +74,7 @@ label{
     display: grid;
     grid-auto-flow: column;
     scroll-behavior: auto;
-    width: 1200px;
+    max-width: 1500px;
     gap: 1.2rem;
     overflow-y: auto;
     overscroll-behavior-x: contain ;
