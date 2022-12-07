@@ -4,18 +4,20 @@
 *{
     text-align: center;
     margin :auto;
-    box-sizing: border-box;
     text-decoration: none; 
+
     font-size: 15px;
     font-family: 'Secular One', sans-serif;
-
-
+    
 }
 
 body{
+    margin: 10px;
+
     align-items: center;
     align-content: center;
-    background-color: #63655A;
+
+    background-image: linear-gradient(rgb(172, 172, 172), rgb(148, 148, 42));
 }
 
 main{
@@ -28,11 +30,11 @@ main{
 h1{
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: #63655A;
+    background-color: #999b8fc9;
     width: 100px;
     height: auto;
     padding: auto;
-    border-radius: 40px;
+    border-radius: 10px;
 }
 
 h2{
@@ -49,8 +51,8 @@ h3{
     background-color: #ebebeb;
     border-radius: 30px;
     padding: 5px;
-    width: 200px;
-    height: 30px;
+    width: auto;
+    height: 16px;
     font-size: 17px;
 }
 h4{
@@ -101,7 +103,7 @@ address{
 
 abbr{
     color: inherit;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 pre{
@@ -123,7 +125,9 @@ ul{
 
 a{
     color:inherit ;
+
 } 
+
 
 .cabecalho{
     display : flex;
@@ -139,11 +143,14 @@ a{
 
 .link1{
     padding: 12px;
+    content: '\1F517';
+
 }
 
 .link2{
     padding: 10px;
 }
+
 
 .imagens{
     text-align: center;    
@@ -215,6 +222,7 @@ a{
 
 .carrousel{
     display: grid;
+    align-items: center;
     grid-auto-flow: column;
     scroll-behavior: auto;
     max-width: 1500px;
@@ -223,6 +231,9 @@ a{
     overscroll-behavior-x: contain ;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
+
+    background-color: #00000069;
+    border-radius: 15px;
 }
 
 .card{
@@ -305,7 +316,7 @@ a{
 }
 
 .button_contato:hover {
-    background-color: rgb(14, 148, 238);
+    background-color: rgb(217, 255, 0);
 }
 
 .nav_1{
@@ -313,7 +324,6 @@ a{
     justify-content: space-between;
     align-items: flex-end;
 
-    background-color: #63655A;
     height: auto;
     width: auto;
 
@@ -321,7 +331,7 @@ a{
 }
 
 .nav1_text:hover{
-    opacity: 80%;
+    opacity: 50%;
 }
 
 .nav_2{
@@ -329,9 +339,8 @@ a{
     justify-content: space-between;
     align-items: flex-end;
 
-    background-color: #63655A;
     height: auto;
-    width: auto;
+    max-width: 1500px;
 
     padding: 3rem;
 }
@@ -357,7 +366,7 @@ a{
 
 
 .button_contato:hover{
-    outline: dotted rgb(42, 56, 177);
+    outline: dotted rgb(255, 255, 255);
 }
 
 .mouse{
@@ -378,12 +387,20 @@ a{
     color: yellow;
 }
 
+.rep_github::after{
+        content: '\1F517';
+}
+
 .github:active{
     color: yellow;
 }
 
 .rep_github::before{
     content:'  ➪';
+}
+
+.github::after{
+    content:'\1F517';
 }
 
 .github::before{
@@ -399,15 +416,27 @@ a{
 }
 
 .nav_3{
-    display: flex;
-    justify-content: space-between;
+    display: block;
     text-align: center;
 
-    background-color: #63655A;
-    height: 240px;
-    width: auto;
+    justify-content: space-between;
 
-    padding: 3rem;
+    height: 240px;
+    max-width: 1200px;
+
+    padding: 5px;
+}
+
+.nav_4{
+    display: block;
+    text-align: center;
+
+    justify-content: space-between;
+
+    height: 300px;
+    max-width: 1500px;
+
+    padding: 5px;
 }
 
 .titulos{
@@ -416,16 +445,77 @@ a{
     
     justify-content: space-between;
     margin-left: auto;
+    max-width: 1500px;
 
 }
 
 .imagem_nordestao{
-background-image: url(../imagens/nordeste.png);  
+  background-image: url(../imagens/nordeste.png);  
   height:150px;
   width:150px;
   margin: auto;
   background-size:100% auto; 
 }
+
+.imagem_vovodeouro{
+    background-image: url(../imagens/vovo-de-ouro.png);  
+    height: 140px;
+    width:auto;
+    margin: auto;
+    background-size:100% auto; 
+  }
+
+  .imagem_vovodeouro:hover .texto{
+    opacity:1;
+   }
+
+   .imagem_omaisquerido{
+    background-image: url(../imagens/omaisquerido.png);  
+    height: 140px;
+    width:auto;
+    margin: auto;
+    background-size:100% auto; 
+  }
+
+  .imagem_omaisquerido:hover .texto{
+    opacity:1;
+   }
+
+   .imagem_campeaodapopularidade{
+    background-image: url(../imagens/campeaodapopularidade.png);  
+    height: 140px;
+    width:auto;
+    margin: auto;
+    background-size:100% auto; 
+  }
+
+  .imagem_campeaodapopularidade:hover .texto{
+    opacity:1;
+   }
+
+   .imagem_timedopovo{
+    background-image: url(../imagens/timedopovo.png);  
+    height: 140px;
+    width:auto;
+    margin: auto;
+    background-size:100% auto; 
+  }
+
+  .imagem_timedopovo:hover .texto{
+    opacity:1;
+   }
+
+   .imagem_consuladoalvinegro{
+    background-image: url(../imagens/consuladoalvinegro.png);  
+    height: 140px;
+    width:auto;
+    margin: auto;
+    background-size:100% auto; 
+  }
+
+  .imagem_consuladoalvinegro:hover .texto{
+    opacity:1;
+   }
 
 .texto{
     padding:20px;
@@ -510,7 +600,7 @@ background-image: url(../imagens/nordeste.png);
 .titulos_text{
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 21px;
+    font-size: 15px;
 }
 
 .rodape{
@@ -523,6 +613,5 @@ background-image: url(../imagens/nordeste.png);
 }
 
 .rodape-imagem:hover{
-    color: #ffffff;
-    opacity:80%;
+    opacity:50%;
 }
